@@ -1,4 +1,55 @@
 console.log("welcome to my portfolio , You are here so enjoy this! , Had to work hard to make it possible beacasue i m at my start of my web development!");
+window.addEventListener("load",()=>{
+  preloader.style.display="none";
+  
+})
+// for respnsive header changer below 1000px
+function myFunction(x) {
+  if (x.matches) {
+    nav.style.display = "flex";
+    headlock.style.display="none";
+  } else {
+    nav.style.display = "none";
+    headlock.style.display="flex";
+  }
+}
+
+var x = window.matchMedia("(max-width: 1000px)");
+// Call listener function at run time
+myFunction(x);
+
+//  listener function on state changes
+x.addEventListener("change", function () {
+  myFunction(x);
+});
+// Script for header size change
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// for menu in smaller MediaDevices
+nav.addEventListener("click", () => {
+ 
+  nav.classList.toggle("fa-bars");
+  nav.classList.toggle("fa-xmark");
+  head3.classList.toggle("headent");
+  nav.classList.toggle("nav2");
+  if (headlock.style.display === "none") {
+    headlock.style.display = "flex";
+  } else {
+    headlock.style.display = "none";
+  }
+  headlock.classList.add("headlock");
+});
+
 // for icons change on hover
 let a = document.getElementById("b1");
 let b = document.getElementById("b2");
