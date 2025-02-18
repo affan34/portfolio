@@ -14,7 +14,7 @@ function myFunction(x) {
   }
 }
 
-var x = window.matchMedia("(max-width: 1000px)");
+var x = window.matchMedia("(max-width: 1500px)");
 // Call listener function at run time
 myFunction(x);
 
@@ -249,4 +249,6 @@ lets6.addEventListener("mouseenter", () => {
 lets6.addEventListener("mouseleave", () => {
   fin1l.src = "projecticon/icons8-male-user-90.png";
 });
-// scroll reveal
+// scroll on projects
+// Dark & Light toggle
+

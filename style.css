@@ -12,7 +12,6 @@ html {
  
 }
 
-
 #preloader {
   height: 100vh;
   width: 100vw;
@@ -55,7 +54,7 @@ html {
 .h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.3em;
-  color: #0E2431;
+  color: #0E2431 !important;
   margin-left: 0.5vw;
   font-weight: bolder;
   transition: ease-in-out 0.4s;
@@ -65,13 +64,14 @@ html {
 }
 
 .h2:hover {
-  color: #C07210;
+  color: #C07210 !important;
   cursor: pointer;
+ 
 }
 
 .h2line {
   border-bottom: 1px solid #011AFF;
-  color: #011AFF;
+  color: #011AFF !important;
 }
 
 .h3 {
@@ -80,7 +80,7 @@ html {
 }
 
 .h3:hover {
-  color: #011AFF;
+  color: #011AFF !important;
 }
 
 .h4 {
@@ -89,7 +89,7 @@ html {
 }
 
 .h4:hover {
-  color: #011AFF;
+  color: #011AFF !important;
 }
 
 .a {
@@ -688,11 +688,12 @@ canvas {
 }
 
 .f {
-  background-color: #CFCFCF;
-  height: 650px;
+  background-color: #fdf3f3;
+  height: 850px;
   width: 100%;
 
 }
+
 
 .sick {
   color: black;
@@ -710,6 +711,49 @@ canvas {
 .x1 {
   color: black;
 }
+
+.card_container{
+  display:flex;
+  width:100%;
+  height:600px;
+  background-color:#fdf3f3;
+  position: relative;
+  top:4em;
+  justify-content:center;
+  align-items:center;
+  gap:3em;
+  flex-wrap:wrap;
+}
+
+.cards{
+  height:250px;
+  width:250px;
+  background-color:white;
+  border-radius:12px;
+  transition:ease-in-out 0.3s;
+  /* border:1px solid #5605a0; */
+  cursor:pointer;
+  overflow:hidden;
+}
+
+.cards:hover{
+  box-shadow:5px 5px 5px 2px #5605a0;
+
+
+}
+.card_img{
+  width:248px;
+  border-radius:12px 12px 12px 12px;
+  
+}
+
+
+
+
+
+
+
+
 
 .f3 {
    /* height: 130em;
@@ -1001,6 +1045,44 @@ canvas {
   text-decoration: none;
   color: white;
 }
+
+/* CSS for projects section */
+
+@media screen and (max-width:1450px){
+  .f{
+    height:1080px;
+  }
+}
+
+
+.headent{
+  border-radius:16px;
+  height:50em;
+  width:25vw;
+  background-color:white;
+  /* flex-direction:column; */
+  margin-left:40vw;
+
+}
+.headlock{
+  flex-direction:column;
+ margin-top:20em;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1300px){
 .cextra{
   font-size:2em;
@@ -1174,6 +1256,9 @@ canvas {
 
   }
   @media screen and (max-width:900px){
+    .f{
+      height: 1680px;
+    }
 
     .d9 {
       left: 4.5vw;
@@ -1513,6 +1598,9 @@ canvas {
 
 
 @media screen and (max-width: 600px){
+  .f{
+    height: 2880px;
+  }
 .dextra {
     font-size: 1.5em;
 }
