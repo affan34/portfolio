@@ -1053,8 +1053,9 @@ canvas {
     height:1080px;
   }
 }
-
-
+.nav2{
+  margin-left: 2vw;
+}
 .headent{
   border-radius:16px;
   height:50em;
@@ -1084,6 +1085,12 @@ canvas {
 
 
 @media screen and (max-width:1300px){
+  .nav{
+    margin-left:35vw;
+  }
+  .nav2{
+    margin-left: 2vw;
+  }
 .cextra{
   font-size:2em;
 }
@@ -1175,6 +1182,9 @@ canvas {
 
 }
 @media screen and (max-width:1000px){
+  .nav{
+    margin-left:30vw;
+  }
   .aextra {
     
     width: 70vw;
@@ -1334,17 +1344,18 @@ canvas {
   
 }
 
-
+.nav2{
+  margin-left: 2vw;
+}
+.headent{
+  margin-left: 20vw;
+  width: 40vw;
+}
   }
   @media screen and (max-width:750px){
 
-    .nav {
-      margin-left: 35vw;
-  }
-  .nav2{
-    margin-left: 3vw;
-
-  }
+    
+ 
  
   .aextra1 {
     width: 75vw;
@@ -1376,8 +1387,22 @@ canvas {
   
   left: 33vw;
 }
+.nav{
+  margin-left:18vw;
+}
+.headent{
+  margin-left: 20vw;
+  width: 40vw;
+}
+.nav2{
+  margin-left: 3vw;
+
+}
+
   }
   @media screen and (max-width:700px){
+   
+   
     .aextra1 {
       width: 85vw;
   }
@@ -1475,25 +1500,27 @@ canvas {
     .d21 {
       width: 56vw;
     }
-
+    .nav{
+      margin-left:18vw;
+    }
+    .nav2{
+      margin-left: 2vw;
+    }
   }
   @media screen and (max-width:650px){
     .h2 {
       
       font-size: 1em;
     }
-    .nav {
-      margin-left: 30vw;
-  }
-  .nav2{
-    margin-left: 4vw;
+    .nav{
+      margin-left:15vw;
+    }
 
-  }
   .headent {
   
     width: 39vw;
    
-    margin-left: 25vw;
+    margin-left: 20vw;
 }
   .a2 {
    
@@ -1594,6 +1621,10 @@ canvas {
  
   width: 46vw;
 }
+.nav2{
+  margin-left: 4vw;
+
+}
 }
 
 
@@ -1632,6 +1663,13 @@ canvas {
   left: 27vw;
   top: -6.4em;
 }
+.nav{
+  margin-left:15vw;
+}
+.nav2{
+  margin-left: 4vw;
+
+}
 }
 @media screen and (max-width: 550px){
 
@@ -1655,6 +1693,18 @@ canvas {
     
     width: 30vw;
   }
+  .nav{
+    margin-left:15vw;
+  }
+  .nav2{
+    margin-left: 4vw;
+  
+  }
+  .headent {
+    width: 45vw;
+    margin-left:15vw;
+}
+}
 
 }
 @media screen and (max-width: 500px){
@@ -1700,17 +1750,17 @@ canvas {
   font-size: 0.3em;
 }
 .nav {
-  margin-left: 20vw;
+  margin-left: 13vw;
 }
 .nav2{
-  margin-left: 4vw;
+  margin-left: 1vw;
 
 }
 .headent {
 
-  width: 39vw;
+  width: 45vw;
  
-  margin-left: 14vw;
+  margin-left: 5vw;
 }
 .fin1a {
   margin-left: 0vw;
@@ -1776,15 +1826,15 @@ canvas {
 }
 
 .nav {
-  margin-left: 15vw;
+  margin-left: 0vw;
 }
 .nav2{
-  margin-left: 4vw;
+  margin-left: 1vw;
 
 }
 .headent {
   width: 39vw;
-  margin-left: 9vw;
+  margin-left: 1vw;
 }
 
 
@@ -1831,7 +1881,7 @@ canvas {
     display: none;
   }
   .nav {
-    margin-left: 5vw;
+    margin-left: 0vw;
 }
 .headent {
   width: 39vw;
